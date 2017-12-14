@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A60BD119-1907-43DE-842C-F6EA51FE4A82" name="Helicoptero">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:31:21 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdHelicoptero" id="0BFF2180-4579-2EAB-DC5F-385FA662B0DF">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:31:30 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo" id="84FC9AA8-B414-8122-A84A-8DEBC81347CC">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:34:26 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="766C566F-A6CC-9625-218E-B8F319B3136A">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:34:38 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="994899DF-81EE-BEC5-8BB0-6961B5E9F26C" name="Helicoptero PK">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:34:25 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BFF2180-4579-2EAB-DC5F-385FA662B0DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

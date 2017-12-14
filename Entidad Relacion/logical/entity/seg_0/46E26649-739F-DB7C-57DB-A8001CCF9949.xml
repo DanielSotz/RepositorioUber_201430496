@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46E26649-739F-DB7C-57DB-A8001CCF9949" name="RegistroUberPool">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdRegistroUberPool" id="0D41BA41-2870-02CF-2C5D-E6167B5E3AA6">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdServidorUber" id="69F7D1CF-6FB9-D08B-D013-A59DA325A2C8">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="0E9CC7CB-8DE2-8B21-14C3-32601E4ED964">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distancia" id="9A183747-0979-FAE4-95A1-A93E9592BBC4">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo" id="3B785DCA-3F67-6346-DB76-A77A9B2C45DD">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="39F8E783-EA30-F5F6-3AD9-9EC7CF9083BB">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario2" id="BDE13DE8-90C0-C9BD-4723-351ABB329782">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:18:05 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario3" id="82F6F190-7A2C-67E7-F74E-8C5F6B2D00DE">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:18:22 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario1" id="40C0583E-81BE-172F-7789-273A13BC06DD">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:46:23 UTC</createdTime>
+<generatorID>246D6294-4E76-8D27-3A53-52E91C417D7B</generatorID>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<referedAttribute>9A3FB3AC-E26C-5E35-D2E3-B186C1F2D72D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdServidorUber1" id="473BA78D-7A28-797A-91E8-DE96B249D5F6">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:47:49 UTC</createdTime>
+<generatorID>45B2A62B-AD64-0B67-B536-BEA3216C9007</generatorID>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<referedAttribute>AB57D2D8-B182-AD92-8917-0EBF1443C8A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="997598CC-B6C4-D47F-E35F-89C5B4608C52" name="RegistroUberX PK">
+<createdBy>user</createdBy>
+<createdTime>2017-12-14 18:15:41 UTC</createdTime>
+<ownerDesignName>Entidad Relacion </ownerDesignName>
+<engineerTo>
+<item key="430D4B5B-9D31-7452-5178-E1893851071B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D41BA41-2870-02CF-2C5D-E6167B5E3AA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
